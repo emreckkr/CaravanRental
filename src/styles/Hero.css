@@ -1,0 +1,132 @@
+.bg-shape{
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index:1;
+    @media (max-width: 800px) {
+        display: none;
+      }
+}
+.hero-section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 97vh;
+    background-color: #f8f8f8;
+  
+}
+
+.hero_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin:0px 50px ;
+    @media (max-width: 800px) {
+        justify-content: center;
+      }
+    }
+.hero_content_text{
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+    max-width: 40rem;
+    margin-top: 10rem;
+
+    @media (max-width: 800px) {
+      text-align: center;
+      align-items: center;
+    }
+}
+h1{ 
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 0.8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    span{
+        color: rgb(255, 176, 0);
+    }
+}
+p{  
+    font-size: 28px;
+    line-height: 1.6;
+    color: gray ;
+    margin-bottom: 50px;
+    
+}
+h4{
+    font-size: 25px;
+}
+.hero_content_text_btns{
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    padding-top: 0px;
+
+}
+
+.hero_content_text_btns_book-ride{
+    text-decoration: none;
+    background-color: #FFB000;
+    gap: 5px;
+    padding: 1.8rem 2rem;
+    border-radius: 0.3rem;
+    display: flex;
+    
+    
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+.hero_content_text_btns_learn-more{
+    text-decoration: none;
+    background-color: black;
+    padding: 1.8rem 2rem;
+    gap: 5px;
+    border-radius: 0.3rem;
+    display: flex;
+}
+
+.hero-content-car-img{
+   
+    right: 5;
+    z-index: 6;
+    height: 480px;
+    width: 640px;
+    margin-top: 160px;
+    right: 10px;
+    z-index: 3;
+    position: absolute;
+    @media (max-width:800px) {
+        display: none;
+    }
+}
+.hero_content_text_btns_learn-more:hover{
+    color: black;
+    background-color: white;
+    border:2px solid black;
+    transition: 0.3s all;
+}
+
+.show-scroll{
+    display: flex !important;
+}
+
+.scroll-up{
+    display: none;
+    position: fixed;
+    font-size: 2.5rem;
+    color: white;
+    background-color: #FFB000;
+    cursor: pointer;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    bottom: 0;
+}

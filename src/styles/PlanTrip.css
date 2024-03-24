@@ -1,0 +1,33 @@
+.plan-section{
+   padding: 5rem 0rem5rem;
+}
+
+
+.plan-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-container_title{
+    font-size: 1.6rem;
+    text-align: center;
+    h3{font-weight: 400;}
+}
+
+.plan-container__boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin:1rem 5rem;
+    padding: 0 3rem;
+    gap:3rem;
+}
+
+.plan-container__boxes_box{
+    text-align: center;
+    padding: 1rem 2rem;
+    p{
+        font-size: 1rem;
+        line-height: 1.43;
+    }
+}
